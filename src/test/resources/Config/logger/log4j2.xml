@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XML>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+	<Properties>
+		<Property name="basePath">./resources/logs</Property>
+		<Property name="PATTERN">[%-5p][%d{dd-MMM-yyyy HH:mm:ss a}] %C{0}.%M:(%L) - %m%n</Property>
+	</Properties>
+	<Appenders>
+		<!-- Rolling File Appender -->
+		<RollingFile name="RollingFile" fileName="${basePath}/${date:hh-mm a_dd-MMM-yyyy}.log" 
+					filePattern="${basePath}/%d{dd-MM-yyyy hh:mm:ss}-%i.log">
+				<PatternLayout pattern="${PATTERN}" />
+			<Policies />
+		</RollingFile>
+		
+		<!-- Console Appender -->
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<!-- <PatternLayout pattern="${PATTERN}" /> -->
+			<PatternLayout pattern="[%-5p] %C{0}.%M:(%F:%L) - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="demo" level="all" />
+		<Root level="all">
+			<AppenderRef ref="RollingFile" level="all" />
+			<AppenderRef ref="STDOUT" level="all" />
+		</Root>
+	</Loggers>
+</Configuration>
