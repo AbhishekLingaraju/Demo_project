@@ -1,0 +1,106 @@
+[INFO ][04-Jul-2024 00:09:02 am] SeleniumWrapper.openBrowser:(278) - Opening chrome browser.
+[INFO ][04-Jul-2024 00:09:06 am] SeleniumWrapper.enterURL:(33) - Entering url :https://demo.kapturekm.com/ksearch
+[INFO ][04-Jul-2024 00:09:07 am] ApplicationWrapper.launchURL:(12) - Application launched successfully
+[INFO ][04-Jul-2024 00:09:12 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:09:15 am] Search_POM.verifyFields:(167) - First name : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:17 am] Search_POM.verifyFields:(167) - Last name : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:20 am] Search_POM.verifyFields:(167) - Email address : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:23 am] Search_POM.verifyFields:(167) - Subject : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:28 am] Search_POM.verifyFields:(167) - Question : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:31 am] Search_POM.verifyFields:(167) - Account : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:33 am] Search_POM.verifyButton:(95) - Choose File : button is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:36 am] Search_POM.verifyButton:(95) - Submit Your Question : button is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:09:43 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:09:45 am] SeleniumWrapper.enterText:(201) - Entering Text :Abhishek in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:09:47 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:09:49 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:09:51 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:09:54 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:09:56 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:09:58 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling_905 in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:10:00 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:10:04 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling steps from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:10:06 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:10:19 am] Search_POM.verifyPopuptext:(205) - Success popup is displayed with case number : CASE0113
+[INFO ][04-Jul-2024 00:10:31 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:10:33 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:10:35 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:10:37 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:10:39 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:10:41 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:10:43 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:10:47 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:10:49 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:10:58 am] Search_POM.verifyErrorText:(187) - Error message is displayed with text : Please enter first name
+[INFO ][04-Jul-2024 00:11:05 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:11:07 am] SeleniumWrapper.enterText:(201) - Entering Text :Abhishek in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:11:09 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:11:11 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:11:14 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:11:16 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:11:18 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:11:22 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:11:24 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:11:33 am] Search_POM.verifyErrorText:(187) - Error message is displayed with text : Please enter last name
+[INFO ][04-Jul-2024 00:11:40 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:11:42 am] SeleniumWrapper.enterText:(201) - Entering Text :Abhishek in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:11:44 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:11:46 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:11:48 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:11:50 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:11:52 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:11:56 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:11:58 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:12:07 am] Search_POM.verifyErrorText:(187) - Error message is displayed with text : Please enter email ID
+[INFO ][04-Jul-2024 00:12:14 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:12:16 am] SeleniumWrapper.enterText:(201) - Entering Text :Abhishek in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:12:18 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:12:20 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:12:22 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:12:25 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:12:27 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:12:31 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:12:33 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:12:42 am] Search_POM.verifyFields:(167) - Subject : field is displayed in Ask a Question Screen
+[INFO ][04-Jul-2024 00:12:49 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:12:51 am] SeleniumWrapper.enterText:(201) - Entering Text :Abhishek in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:12:53 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:12:55 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:12:57 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:12:59 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:13:01 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:13:03 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:13:05 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:13:16 am] Search_POM.verifyErrorText:(187) - Error message is displayed with text : Please enter question
+[INFO ][04-Jul-2024 00:13:23 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:13:25 am] SeleniumWrapper.enterText:(201) - Entering Text :Abhishek in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:13:27 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:13:29 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:13:31 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:13:34 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:13:36 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:13:38 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:13:40 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:13:44 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:13:46 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:13:51 am] Search_POM.verifyErrorText:(187) - Error message is displayed with text : Please choose account
+[INFO ][04-Jul-2024 00:13:58 am] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][04-Jul-2024 00:14:00 am] SeleniumWrapper.enterText:(201) - Entering Text :@12Abhi in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='First name']//..//input]
+[INFO ][04-Jul-2024 00:14:02 am] Search_POM.enterDataToField:(243) - Data to First name is entered successfully
+[INFO ][04-Jul-2024 00:14:04 am] SeleniumWrapper.enterText:(201) - Entering Text :Lingaraju in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Last name']//..//input]
+[INFO ][04-Jul-2024 00:14:06 am] Search_POM.enterDataToField:(243) - Data to Last name is entered successfully
+[INFO ][04-Jul-2024 00:14:08 am] SeleniumWrapper.enterText:(201) - Entering Text :abhishekl@softclouds.com in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Email address']//..//input]
+[INFO ][04-Jul-2024 00:14:10 am] Search_POM.enterDataToField:(243) - Data to Email address is entered successfully
+[INFO ][04-Jul-2024 00:14:12 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Subject ']//..//input]
+[INFO ][04-Jul-2024 00:14:14 am] Search_POM.enterDataToField:(243) - Data to Subject is entered successfully
+[INFO ][04-Jul-2024 00:14:18 am] SeleniumWrapper.enterText:(201) - Entering Text :Data crawling from Slack in WebElement :[[ChromeDriver: chrome on WINDOWS (ff56111de1a2ecc68079a70a3fbc3651)] -> xpath: //label[text()='Question ']//..//textarea]
+[INFO ][04-Jul-2024 00:14:20 am] Search_POM.enterDataToField:(243) - Data to Question is entered successfully
+[INFO ][04-Jul-2024 00:14:32 am] Search_POM.verifyErrorText:(187) - Error message is displayed with text : Allows alphabets only
+[ERROR][04-Jul-2024 00:14:35 am] SeleniumWrapper.clickUsingJavaScript:(250) - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ABHISHEK', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\abhis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff56111de1a2ecc68079a70a3fbc3651

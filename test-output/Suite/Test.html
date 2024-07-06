@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 06 15:56:26 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>485 seconds (485837 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC001_Verify_Ask_a_Question_page_GUI_elements()'><b>AQ_TC001_Verify_Ask_a_Question_page_GUI_elements</b><br>Test class: com.test.app.Search<br>Test method: Verify Ask question page GUI elements</td>
+<td></td>
+<td>34</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC002_Create_new_case()'><b>AQ_TC002_Create_new_case</b><br>Test class: com.test.app.Search<br>Test method: Verify Create new case functionality</td>
+<td></td>
+<td>48</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC003_Verify_error_message_when_First_name_field_is_empty()'><b>AQ_TC003_Verify_error_message_when_First_name_field_is_empty</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when First name field is empty</td>
+<td></td>
+<td>36</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC004_Verify_error_message_when_Last_name_field_is_empty()'><b>AQ_TC004_Verify_error_message_when_Last_name_field_is_empty</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Last name field is empty</td>
+<td></td>
+<td>36</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC005_Verify_error_message_when_Email_field_is_empty()'><b>AQ_TC005_Verify_error_message_when_Email_field_is_empty</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Email field is empty</td>
+<td></td>
+<td>36</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC006_Verify_error_message_when_Subject_field_is_empty()'><b>AQ_TC006_Verify_error_message_when_Subject_field_is_empty</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Subject field is empty</td>
+<td></td>
+<td>36</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC007_Verify_error_message_when_Question_field_is_empty()'><b>AQ_TC007_Verify_error_message_when_Question_field_is_empty</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Question field is empty</td>
+<td></td>
+<td>36</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC008_Verify_error_message_when_Account_dropdown_is_empty()'><b>AQ_TC008_Verify_error_message_when_Account_dropdown_is_empty</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Account dropdown is empty</td>
+<td></td>
+<td>37</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC010_Verify_error_message_when_Lastname_is_specialCharacter()'><b>AQ_TC010_Verify_error_message_when_Lastname_is_specialCharacter</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Last name contains special character or number</td>
+<td></td>
+<td>42</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC011_Verify_error_message_when_EmailID_is_invalid()'><b>AQ_TC011_Verify_error_message_when_EmailID_is_invalid</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when EmailID is invalid</td>
+<td></td>
+<td>42</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC012_Verify_error_message_when_empty_file_is_attached_for_case_creation()'><b>AQ_TC012_Verify_error_message_when_empty_file_is_attached_for_case_creation</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when empty file is attached</td>
+<td></td>
+<td>45</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+<tr>
+<td title='com.test.app.Search.AQ_TC09_Verify_error_message_when_Firstname_is_specialCharacter()'><b>AQ_TC09_Verify_error_message_when_Firstname_is_specialCharacter</b><br>Test class: com.test.app.Search<br>Test method: Verify error message when Firstname contains special character or numbers</td>
+<td></td>
+<td>42</td>
+<td>com.test.app.Search@62d0ac62</td></tr>
+</table><p>
+</body>
+</html>

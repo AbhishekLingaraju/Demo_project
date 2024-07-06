@@ -57,7 +57,7 @@ public class Search_POM extends BaseClass
 		}
 
 		Assert.assertTrue(state, screen +" : is not displayed");
-		//highlightWebElement(locator);
+		highlightWebElement(locator);
 		log.info(screen + ": Screen is displayed successfully");
 
 		test.log(Status.PASS, screen + ": Screen is displayed successfully");
@@ -91,7 +91,7 @@ public class Search_POM extends BaseClass
 			throw error; 
 		}
 		Assert.assertTrue(state, button+ " :********button is not present********** : ");
-		//highlightWebElement(locator);
+		highlightWebElement(locator);
 		log.info(button + " : button is displayed in " + screen + " Screen");
 		test.log(Status.PASS, button + " : button is displayed in " + screen + " Screen");
 	}
@@ -116,7 +116,7 @@ public class Search_POM extends BaseClass
 			break;
 		}
 		Assert.assertTrue(state, Label +" : is not displayed");
-		//highlightWebElement(locator);
+		highlightWebElement(locator);
 		log.info(Label + ": label is displayed on " + screen);
 		test.log(Status.PASS, Label + ": label is displayed on " + screen);
 	}
@@ -163,7 +163,7 @@ public class Search_POM extends BaseClass
 			throw error; 
 		}
 		Assert.assertTrue(state, Field+ " :********field is not present********** : ");
-		//highlightWebElement(locator);
+		highlightWebElement(locator);
 		log.info(Field + " : field is displayed in " + screen + " Screen");
 		test.log(Status.PASS, Field + " : field is displayed in " + screen + " Screen");
 	}
@@ -182,7 +182,7 @@ public class Search_POM extends BaseClass
 			log.info(popup + ", is not maching with any cases ");
 			throw error;
 		}
-		//highlightWebElement(locator);
+		highlightWebElement(locator);
 		Assert.assertTrue(state,  " expected text is not displayed");
 		log.info(popup + " message is displayed with text : " + expected);
 		test.log(Status.PASS,popup + " message is displayed with text : " + expected);

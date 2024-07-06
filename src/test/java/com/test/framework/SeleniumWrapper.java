@@ -35,7 +35,7 @@ public class SeleniumWrapper extends GlobalObjectRepository
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static WebElement findElement(By locator)
 	{
 		WebElement element = driver.findElement(locator);
@@ -188,7 +188,7 @@ public class SeleniumWrapper extends GlobalObjectRepository
 	{
 		test.info(MediaEntityBuilder.createScreenCaptureFromBase64String(captureScreenshot()).build());
 	}
-	
+
 	public static void enterText(By by ,String text) throws Exception {
 		hardWait(2);
 		enterText(getWebElement(by), text);
@@ -216,7 +216,7 @@ public class SeleniumWrapper extends GlobalObjectRepository
 			throw e;
 		}
 	}
-	
+
 	public static void selectVisibleText(WebElement webElement,String text) throws Exception {
 		try { 
 			hardWait(2);
@@ -264,17 +264,17 @@ public class SeleniumWrapper extends GlobalObjectRepository
 			switch (browserName) {
 
 			case "chrome": {
-				
+
 				//++++Driver.exe file with GUI mode....+++++
 				//System.setProperty("webdriver.chrome.driver", WEBDRIVER_EXECUTABLES_PATH +"chromedriver.exe");
 				//driver = new ChromeDriver(getChromeBrowserProfile());
 				//++++.................................+++++
-				
+
 				//****WebDriver manager with headless mode *******
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver(getChromeBrowserProfile());
 				//****.....................................*******
-				
+
 				log.info("Opening {} browser.", browserName);
 				break;
 			}
@@ -298,60 +298,81 @@ public class SeleniumWrapper extends GlobalObjectRepository
 			throw e;
 		}
 	}
-	
+
 	//This method is used to fetch the default Chrome profile
-		public static ChromeOptions getChromeBrowserProfile() 
-		{
-			ChromeOptions chromeOptions = new ChromeOptions();
-			//add on
-			//chromeOptions.addArguments("--headless=new");
-			//..
-			chromeOptions.addArguments("chrome.switches", "--disable-extensions");
-			chromeOptions.addArguments("--start-maximized");
-			chromeOptions.addArguments("--disable-save-password");
-			chromeOptions.addArguments("disable-infobars");
-			chromeOptions.addArguments("--disable-notifications");
-			return chromeOptions;
+	public static ChromeOptions getChromeBrowserProfile() 
+	{
+		ChromeOptions chromeOptions = new ChromeOptions();
+		//add on
+		//chromeOptions.addArguments("--headless=new");
+		//..
+		chromeOptions.addArguments("chrome.switches", "--disable-extensions");
+		chromeOptions.addArguments("--start-maximized");
+		chromeOptions.addArguments("--disable-save-password");
+		chromeOptions.addArguments("disable-infobars");
+		chromeOptions.addArguments("--disable-notifications");
+		return chromeOptions;
+	}
+
+	public static void scrolldown()
+	{
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,300)", "");
+		hardWait(2);
+	}
+
+	public static void scrolldUp()
+	{
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,document.body.scrollHeight)");
+		hardWait(2);
+	}
+
+	public static void pageRefresh()
+	{
+		hardWait(1);
+		driver.navigate().refresh();
+		hardWait(1);
+	}
+
+	public static ExtentReports extentReport()
+	{
+		//To get current date
+
+		SimpleDateFormat formate = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
+		Date date = new Date();
+		String ActualDate = formate.format(date);
+
+		String reportPath = System.getProperty("user.dir")+"/Report/ExecutionReport_"+ActualDate+".html";
+		ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
+
+		extent = new ExtentReports();
+		extent.attachReporter(spark);
+
+		spark.config().setTheme(Theme.DARK);
+		spark.config().setReportName("Kapture Functional test cases");
+
+		return extent;
+
+	}
+
+	public static void highlightWebElement(By by) throws InterruptedException {
+		try {
+			highlightWebElement(getWebElement(by));
+		} catch (Exception e) {
+			log.error(e);
 		}
-		
-		public static void scrolldown()
-		{
-			((JavascriptExecutor) driver).executeScript("window.scrollBy(0,300)", "");
-			hardWait(2);
+	}
+	public static void highlightWebElement(WebElement element) throws InterruptedException {
+		for (int i = 0; i < 6; i++) {
+			jse = (JavascriptExecutor) driver;
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);", element,"color: orange; border: 3px solid orange;");
+			Thread.sleep(125);
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);", element,"color: pink; border: 4px solid pink;");
+			Thread.sleep(125);
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);", element,"color: yellow; border: 4px solid yellow;");
+			Thread.sleep(125);
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);", element, "");
 		}
+	}
 
-		public static void scrolldUp()
-		{
-			((JavascriptExecutor) driver).executeScript("window.scrollBy(0,document.body.scrollHeight)");
-			hardWait(2);
-		}
-		
-		public static void pageRefresh()
-		{
-			hardWait(1);
-			driver.navigate().refresh();
-			hardWait(1);
-		}
-		
-		public static ExtentReports extentReport()
-		{
-			//To get current date
-
-			SimpleDateFormat formate = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
-			Date date = new Date();
-			String ActualDate = formate.format(date);
-
-			String reportPath = System.getProperty("user.dir")+"/Report/ExecutionReport_"+ActualDate+".html";
-			ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
-
-			extent = new ExtentReports();
-			extent.attachReporter(spark);
-
-			spark.config().setTheme(Theme.DARK);
-			spark.config().setReportName("Kapture Functional test cases");
-
-			return extent;
-
-		}
 
 }

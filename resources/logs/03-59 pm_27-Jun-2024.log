@@ -1,0 +1,12 @@
+[INFO ][27-Jun-2024 15:59:02 pm] SeleniumWrapper.openBrowser:(278) - Opening chrome browser.
+[INFO ][27-Jun-2024 15:59:07 pm] SeleniumWrapper.enterURL:(33) - Entering url :https://demo.kapturekm.com/ksearch
+[INFO ][27-Jun-2024 15:59:08 pm] ApplicationWrapper.launchURL:(12) - Application launched successfully
+[INFO ][27-Jun-2024 15:59:11 pm] Search_POM.verifyScreen:(61) - Ask a Question: Screen is displayed successfully
+[INFO ][27-Jun-2024 15:59:11 pm] Search_POM.verifyFields:(167) - First name : field is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:11 pm] Search_POM.verifyFields:(167) - Last name : field is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:11 pm] Search_POM.verifyFields:(167) - Email address : field is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:11 pm] Search_POM.verifyFields:(167) - Subject : field is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:13 pm] Search_POM.verifyFields:(167) - Question : field is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:13 pm] Search_POM.verifyFields:(167) - Account : field is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:16 pm] Search_POM.verifyButton:(95) - Choose File : button is displayed in Ask a Question Screen
+[INFO ][27-Jun-2024 15:59:19 pm] Search_POM.verifyButton:(95) - Submit Your Question : button is displayed in Ask a Question Screen
